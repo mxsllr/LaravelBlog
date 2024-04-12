@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
-abstract class Controller
+abstract class BlogController
 {
-    //
+    public function article($id){
+        redirect("article");
+    }
 }
